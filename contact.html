@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h2>Innovation Lives Here</h2>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar"> 
+        <div class="webTitle">
+            <h2>Paltech</h2>
+        </div>
+        <div class="navlinks">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Assig 1</a></li>
+                <li><a href="#">Assig 2</a></li>
+                <li><a href="#">Assig 3</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <div class="burger1"></div>
+            <div class="burger2"></div>
+            <div class="burger3"></div>
+        </div>
+    </nav>
+
+    <!-- Form Page -->
+    <section class="Fcontent" id="FTitle">
+        <div class="message">
+            <form action="#">
+                <label for="Fname">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Name..">
+
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+
+                <p class="age">Age:</p>
+                <input type="radio" id="age1" name="age" value="30">
+                <label for="age1">0 - 18</label><br>
+                <input type="radio" id="age2" name="age" value="60">
+                <label for="age2">>18</label> 
+                <br>
+
+                <p class="age">Preferred Contact Options:</p>
+                <input type="checkbox" id="mail" name="mail" value="mail">
+                <label for="vehicle1"> Mail </label>
+                <input type="checkbox" id="email" name="email" value="email">
+                <label for="vehicle1"> Email </label>
+                <input type="checkbox" id="linkedin" name="linkedin" value="linkedin">
+                <label for="vehicle1"> Linkedin </label><br>
+
+                <label for="msg">Message</label>
+                <textarea id="msg" placeholder="Your message.."></textarea>
+
+                <label for="country">Feedback on</label>
+                <select id="opt" name="opt">
+                    <option value="web">Website Design</option>
+                    <option value="film">Website Content</option>
+                    <option value="random">Random Message</option>
+                </select>
+                <input id="sub" type="submit" value="Submit">
+                <p id="sent"></p>
+            </form>
+        </div>
+    </section>
+        
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="fCopyright">
+            <p>Copyright &copy;2021 Paltech. Designed by Prince Ampofo.</p>
+        </div>
+        <div class="fSocial">
+          <a href="#" class="fIcon"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="fIcon"><i class="fab fa-github"></i></a>
+          <a href="#" class="fIcon"><i class="fab fa-instagram"></i></i></a>
+          <a href="#" class="fIcon"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
