@@ -1,0 +1,113 @@
+/* Applies to all styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+
+/* Header styles */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    background-color: #756213;
+    background-image: linear-gradient(315deg, #756213 0%, #000000 74%);
+
+}
+
+.gameTitle{
+    margin-left: 1em;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.backButton{
+    text-align: center;
+    width: 5em;
+    padding:0.3em 1.2em;
+    background-color: rgba(255,255,255,0.06);
+    border: 1.5px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-right: 2em;
+}
+
+.backButton:hover {
+    background-color: rgba(255,255,255,0.2);
+
+}
+
+.gApp{
+    width: 100%;
+    height: auto;
+}
+
+ul {
+	background-color: #584f4d;
+	border:none;
+	padding: 0;
+	margin: 0;}
+
+li {
+	background-color: #ec8b68;
+	color:white;
+	border-top: 1px solid #fe9772;
+	border-bottom: 1px solid #9f593f;
+	font-size: 1.4em;
+	letter-spacing: 2px;
+	list-style-type: none;
+	text-shadow: 2px 2px 1px #9f593f;
+	height: 50px;
+	padding-left: 1em;
+	padding-top: 0.5em;
+}
+.submitDiv{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#itemButton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+
+.hot {
+	background-color: #3f28c5;
+	color: #fff;
+	text-shadow: 2px 2px 1px #3b3d6a;
+	border-top: 1px solid #7e8be0;
+	border-bottom: 1px solid #3b446a;
+}
+
+.mild {
+    background-color: #c53028;
+	color: #fff;
+	text-shadow: 2px 2px 1px #6a3b3b;
+	border-top: 1px solid #e07e7e;
+	border-bottom: 1px solid #6a3b3b;
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products App</title>
+
+    <link rel="stylesheet" href="products.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <h2 class="gameTitle">Shopping Cart</h2>
+        <a class="backButton" href="./index.html">Back</a>
+    </div>
+
+    <!-- Main app -->
+    <div id="appContent">
+        <div class="formAndOutput">
+            <div id="selectTickets">
+                <h2 class="ticketsHeader">Purchase your tickets now!</h2>
+                <hr>
+                <p class="pText">Please choose the number of tickets you want to buy and fill out the checkout form below:</p>
+                <div class="tickets">
+                    <div class="ticket1">
+                        <h3 class="ticketTitle">Jay Z's concert: $200</h3>
+                        <img class="ticketimg" src="jayz.jpg" alt="">
+                        <h3 class="qDiv" > Quantity: <input type="number" name="quantity1" id="quantity1" min="0" value="0"></h3>
+                        <h3 > Subtotal : <input type="text" id="subtotal1"></h3>
+                    </div>
+                    <div class="ticket2">
+                        <h3 class="ticketTitle">Beyonce's concert: $150</h3>
+                        <img class="ticketimg" src="beyonce.jpg" alt="">
+                        <h3 class="qDiv"> Quantity: <input type="number" name="quantity2" id="quantity2" min="0" value="0"></h3>
+                        <h3 > Subtotal : <input type="text" id="subtotal2"></h3>
+                    </div>
+                </div>
+                <div class="total">
+                    <h3 > Grand Total : <input type="text" id="grandtotal"></h3>
+                </div>
+                <div class="userDetails">
+                    <h3 class="formTitle">Fill in your details below:</h3>
+                    <form action="#">
+                        <div class="fElement">
+                            First name:  <input id="firstName" type="text" name="firstName" >
+                        </div>
+                        <div class="fElement">
+                            Last name:  <input id="lastName" type="text" name="lastName" >
+                        </div>
+                        <div class="fElement">
+                            Phone: <input id="phone" type="text" name="phone">
+                        </div>
+                        <div class="fElement">
+                            Email: <input id="email" type="text" name="email">
+                        </div>
+                        <div class="fElement">
+                            Zip Code:  <input id="zipCode" type="text" name="zipCode">
+                        </div>
+                        <div class="fElement">
+                            Address:  <input id="address" type="text" name="address">
+                        </div>
+                        <div class="fElement">
+                            Credit Card:  AMEX<input name="creditCard" type="radio" value="Amex" checked>Visa <input name="creditCard" type="radio" value="Visa" >
+                            MasterCard <input name="creditCard" type="radio" value="MasterCard" >
+                        </div>
+                        <div class="fElement">
+                            Card Number:  <input id="cardNumber" type="text" name="cardNumber" >
+                        </div>
+                        <div class="fElement">
+                            Expiry Date <input id="expiryDate" name="expiryDate" type="date" min="2021-11-16" value="expiryDate" >
+                        </div>
+                        <div class="fElement">
+                            <button id="submit" type="submit">Submit</button>
+                            <button id="reset" type="reset">Reset</button> 
+                        </div>
+                             
+                    </form>
+
+                </div>
+                <div id="formOutput">
+                    <h3 class="rSpace" id="rTitle"></h3>
+                    <h3 class="rSpace" id="rTitle2"></h3>
+                    <p class="rSpace" id="fName"></p>
+                    <p class="rSpace" id="lName"></p>
+                    <p class="rSpace" id="uAddress"></p>
+                    <p class="rSpace" id="zCode"></p>
+                    <p class="rSpace" id='cNumber'></p>
+                    <p class="rSpace" id="quantity"></p>
+                    <p class="rSpace" id="jSubtotal"></p>
+                    <p class="rSpace" id="bSubtotal"></p>
+                    <p class="rSpace" id="pTotal"></p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="asg4cart.js"></script>
+</body>
+</html>

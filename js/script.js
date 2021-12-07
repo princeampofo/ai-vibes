@@ -7,7 +7,7 @@ var timeout;
 
 // Sticky Navbar
 document.addEventListener('scroll',()=>{
-    if (window.pageYOffset>= navbarHeight) {
+    if (window.pageYOffset>=navbarHeight) {
         navbar.classList.add("fixed")
         toggleButton.style.top = "1rem";
     } else {

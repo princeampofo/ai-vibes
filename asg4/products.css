@@ -1,0 +1,250 @@
+/* Applies to all styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+
+/* Header styles */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    background-color: #756213;
+    background-image: linear-gradient(315deg, #756213 0%, #000000 74%);
+
+}
+
+.gameTitle{
+    margin-left: 1em;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.backButton{
+    text-align: center;
+    width: 5em;
+    padding:0.3em 1.2em;
+    background-color: rgba(255,255,255,0.06);
+    border: 1.5px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-right: 2em;
+}
+
+.backButton:hover {
+    background-color: rgba(255,255,255,0.2);
+
+}
+
+
+/* Main app styles */
+#appContent{
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+    
+}
+
+.formAndOutput{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+    height: auto;
+}
+
+#selectTickets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ticketsHeader{
+    font-size: 1.4em;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+}
+
+hr{
+    color:black;
+    width: 100%;
+}
+
+.pText{
+    text-align: center;
+    margin-top: 0.6em;
+    margin-bottom: 0.5em;
+}
+
+.tickets{
+    display: flex;
+    width: 90%;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+    justify-content: center;
+
+}
+
+.ticket1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 2em;
+
+}
+
+.ticket2{
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.ticketimg{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 0.5em;
+}
+
+#quantity1{
+    width: 70px;
+}
+
+#quantity2{
+    width: 70px;
+}
+
+.qDiv{
+    margin-bottom: 0.5em;
+}
+
+#subtotal1{
+    width: 70px;
+}
+
+#subtotal2{
+    width: 70px;
+}
+
+.total{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    padding-bottom: 1em;
+    background-color: #772f1a;
+    background-image: linear-gradient(315deg, #772f1a 0%, #f2a65a 74%);
+
+}
+
+#grandtotal{
+    width: 80px;
+}
+
+.userDetails{
+    margin-top: 0.7em;
+    width: 90%;
+    
+}
+
+
+.formTitle{
+    font-size: 1.1em;
+}
+
+.fElement{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#submit{
+    background-color: #334a34;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+#reset{
+    background-color: #395339; 
+    border: none;
+    color: white;
+    margin-left: 0.5em;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#submit:hover{
+    background-color: #3e8e41;
+}
+
+#reset:hover{
+    background-color: #3e8e41;
+}
+
+#formOutput{
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.rSpace{
+    margin-bottom: 0.5em;
+}
+
+
+/* Media queries */
+@media screen and (max-width:750px){
+    .tickets{
+        flex-direction: column;
+        align-items:center ;
+    
+    }
+
+    .ticket1{ 
+        margin-right:0;
+        margin-bottom: 0.9em;
+
+    }
+
+    .ticket2{
+        margin-left:0;
+        margin-bottom: 0.9em;
+    }
+
+}

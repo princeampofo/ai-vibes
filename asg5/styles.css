@@ -1,0 +1,262 @@
+/* Main div */
+.mainContentAsg5{
+    width: 100%;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    
+}
+
+#asg5Content {   
+    max-width: 1024px;
+    margin: 0 auto ;
+
+}
+
+/* Style application */
+#styleApplication{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.sHeader{
+    padding: 0.5em 0.5em;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}
+
+
+#special{
+    padding: 0.5em 0em;
+}
+
+
+.highlight{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    margin-bottom: 0.5em;
+}
+
+.p1{
+    font-size: large;
+    margin-bottom: 0.5em;
+}
+
+
+#sButton5{
+    display: block;
+    margin: 0 auto;
+    padding:0.3em 1.2em;
+    background-color: burlywood;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    
+}
+
+#sButton5:hover{
+    border-color: rgba(255,255,255,1); 
+}
+
+
+/* Image application */
+#imageApplication{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#img5{
+    margin: 1em 0em;
+    width: 300px;
+    height: 250px;
+}
+
+.cButtons{
+    display: flex;
+}
+
+#hButton{
+    display: block;
+    margin: 0.5em 0.5em;
+    padding:0.3em 1.2em;
+    background-color: burlywood;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#hButton:hover{
+    border-color: rgba(255,255,255,1); 
+}
+
+#showButton{
+    display: block;
+    margin: 0.5em 0.5em;
+    padding:0.3em 1.0em;
+    background-color: burlywood;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#showButton:hover{
+    border-color: rgba(255,255,255,1); 
+}
+
+#fOutButton{
+    display: block;
+    margin: 0.5em 0.5em;
+    padding:0.3em 0.8em;
+    background-color: burlywood;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#fOutButton:hover{
+    border-color: rgba(255,255,255,1); 
+}
+
+#fInButton{
+    display: block;
+    margin: 0.5em 0.5em;
+    padding:0.3em 1.2em;
+    background-color: burlywood;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#fInButton:hover{
+    border-color: rgba(255,255,255,1); 
+}
+
+
+/* Animation Application */
+#animationApplication{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#animateObject{
+    background:red;
+    height:100px;
+    width:100px;
+    position:relative;
+    margin: 1em 0em;
+}
+
+#aButton{
+    display: block;
+    margin: 0 auto;
+    padding:0.3em 1.2em;
+    background-color: burlywood;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#aButton:hover{
+    border-color: rgba(255,255,255,1); 
+}
+
+/* Username and Password application */
+#uNamePassword{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+.unameDiv{
+    margin: 1em 0em;
+}
+
+.passwordDiv{
+    margin-bottom: 1em;
+}
+
+
+/* Jquery Web */
+#jQueryWeb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+
+
+#jButton{
+    display: block;
+    margin: 0.5em auto;
+    padding:0.3em 1.2em;
+    background-color: burlywood;
+    border:0.16em solid rgba(255,255,255,0);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#jButton:hover{
+    border-color: rgba(255,255,255,1); 
+}

@@ -12,7 +12,7 @@
     align-items: center;
     width:100vw;
     height: 10vh;
-    background-image: url(tech.jpg);
+    background-image: url(../img/tech.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color:black;
@@ -124,7 +124,7 @@
 .intro{
     height: 30vh;
     width: 100%;
-    background-image:url(ai.jpg) ;
+    background-image:url(../img/ai.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -159,7 +159,7 @@
 /* About css */
 
 .aboutImg{
-    background-image: url(web.jpg);
+    background-image: url(../img/web.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -302,7 +302,7 @@ input[type=submit]:hover {
 }
 
 /* Media queries */
-@media screen and (max-width:700px){
+@media screen and (max-width:850px){
     .hamburger{
         display: block;
     }

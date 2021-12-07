@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="asg2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <h2>Assignment 2</h2>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav id="navbar"> 
+        <div class="webTitle">
+            <h2>Paltech</h2>
+        </div>
+        <div class="navlinks">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../index.html">Assig 1</a></li>
+                <li><a href="./index.html">Assig 2</a></li>
+                <li><a href="../asg3/index.html">Assig 3</a></li>
+                <li><a href="../asg4/index.html">Assig 4</a></li>
+                <li><a href="../asg5/index.html">Assig 5</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <div class="burger1"></div>
+            <div class="burger2"></div>
+            <div class="burger3"></div>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="mainContentAsg2">
+        <div id="asg2Content">
+            <section id="changeStyles">
+                <h2 class="sTitle">Change Styles</h2>
+                <div class="shapes">
+                    <div id="firstShape"></div>
+                    <p id="sText">This is a square/rectangle shape. Click to see an oval/circle shape!</p>
+                    <button id="sButton1" onclick="change()">Change Styles</button>
+                </div>
+            </section>
+    
+            <section id="prizeSection">
+                <h2 class="sTitle">Win A Prize :</h2>
+                <div class="pSection">
+                    <img id="prizeImg" src="" alt="">
+                    <p class="prizeText"></p>
+                    <button id="sButton2" onclick="randPrize()">Click to win a Prize!</button>
+                </div>
+            </section>
+    
+    
+            <section id="swapText">
+                <h2 class="sTitle">Swap Text</h2>
+                <div class="pDiv">
+                    <p id="p1" onclick="swapT()">
+                        They had made it to Las Vegas, wide-eyed and with so much hope and energy. They had planned the trip for more than a year and both were so excited they could barely control themselves. They still hadn't realized that Las Vegas promised a place where dreams come true, it was actually the place where dreams came to die.
+                    </p>
+                    <hr>
+                    <p id="p2" onclick="swapT()">
+                        The amber droplet hung from the branch, reaching fullness and ready to drop. It waited. While many of the other droplets were satisfied to form as big as they could and release, this droplet had other plans. It wanted to be part of history. It wanted to be remembered long after all the other droplets had dissolved into history. So it waited for the perfect specimen to fly by to trap and capture that it hoped would eventually be discovered hundreds of years in the future.
+                    </p>
+                </div>
+            </section>
+    
+            <section id="swapImg">
+                <h2 class="sTitle">Swap Images</h2>
+                <div class="imgDiv">
+                    <img id="swapImg1" onclick="swapImg()" src="img/samsung.jpg" alt="">
+                    <img id="swapImg2" onclick ="swapImg()"  src="img/iphone6.jpg" alt="">
+                </div>
+            </section>
+
+            <section id="fortuneCookie">
+                <h2 class="sTitle">Fortune Cookie</h2>
+                <a class="fortuneLink" href="fortuneC.html">Click to get your Fortune Cookie</a>
+            </section>
+
+            <!-- About Section -->
+        <section id= "aboutSection" class="aboutImg"> 
+            <div class="about">
+                <h2 class="atitle">About Author</h2>
+                <div>
+                  <h3 class="atitle">Student at New York University</h3>
+                  <p class="about__text">
+                    Prince Ampofo is a Computer Science student at New York
+                    University Abu Dhabi. He is an aspiring software engineer who
+                    likes to build useful and interactive web and software
+                    applications to solve real-world problems. He has an interest in
+                    Data science and Machine Learning and has taken part in
+                    Hackathons for which he considers a better way of learning new
+                    things and coordinating with like-minded people.
+                  </p>
+                </div>
+            </div>
+
+        </section>
+    
+        </div>
+       
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="fCopyright">
+                <p>Copyright &copy;2021 Paltech. Designed by Prince Ampofo.</p>
+            </div>
+            <div class="fSocial">
+                <a href="https://www.facebook.com/prince.ampofo.334" class="fIcon"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://github.com/princeampofo" class="fIcon"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/prince_ampofo/" class="fIcon"><i class="fab fa-instagram"></i></i></a>
+                <a href="https://twitter.com/ampofo_p" class="fIcon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
+    
+
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="asg2.js"></script>
+</body>
+</html>

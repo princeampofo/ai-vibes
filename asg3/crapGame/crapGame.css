@@ -1,0 +1,164 @@
+/* Applies to all styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+    font-size: large;
+}
+
+
+/* Header styles */
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 8vh;
+    background-color: #756213;
+    background-image: linear-gradient(315deg, #756213 0%, #000000 74%);
+
+}
+
+.backButton{
+    text-align: center;
+    width: 5em;
+    padding:0.3em 1.2em;
+    background-color: rgba(255,255,255,0.06);
+    border: 1.5px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius:2em;
+    text-decoration:none;
+    font-weight:300;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    text-align:center;
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-right: 2em;
+}
+
+.backButton:hover {
+    background-color: rgba(255,255,255,0.2);
+
+}
+
+/* Main app styles */
+
+#gameContent{
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #b82e1f 74%);
+}
+
+.gameTitle{
+    margin-left: 1em;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#gameForm{
+    width: 60%;
+    height: auto;
+
+}
+
+.dies{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    padding-bottom: 20px;
+}
+
+.die1{
+    width: 50%;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+
+.die2{
+    width: 50%;
+    margin-right: 1em;
+    padding-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 0.5em;
+}
+
+.gameButtons{
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button{
+    font-size: medium;
+    width: 4em;
+    height: 2em;
+    margin-right: 1em;
+    margin-left: 1em;
+    cursor: pointer;
+    border: 1.5px solid rgba(255,255,255,0.1);
+    border-radius: 5px;
+    
+}
+
+.gameText{
+    width: 100%;
+    height: 6vh;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+
+/* Responsiveness */
+@media screen and (max-width:750px){
+    #gameForm{
+        width: 90%;
+        
+    
+    }
+    .dies{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .die1{
+        margin-left: 0;
+    }
+
+    .die2{
+        margin-right: 0;
+    }
+}
+
+
+

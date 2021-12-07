@@ -1,0 +1,120 @@
+/* Applies to all */
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Main content styles */
+.jQContent{
+    width: 100%;
+    min-height:100vh ;
+    background-image: url('./california.jpg');
+    background-attachment: fixed;
+	background-size: cover;
+    opacity: 0.8;
+}
+
+
+.jmainContent {   
+    max-width: 900px;
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.jHeader{
+    font-size: 3em;
+    margin: 1.0em auto;
+    text-align: center;
+    letter-spacing: 10px;
+    cursor: pointer;
+
+}
+
+.jHeader:hover{
+    color: yellow;
+}
+
+
+.sHeader{
+    font-size: 2em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    letter-spacing: 10px;
+    cursor: pointer;
+
+}
+
+.sHeader:hover{
+    color: yellow;
+}
+
+.navigation{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid yellowgreen;
+    padding: 10px;
+}
+
+.navLinks{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.links{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+.links:hover{
+    color:yellow;
+}
+
+.selected{
+    color:yellow;
+}
+
+.displayContent{
+    margin: 2em auto;
+    width: 80%;
+    height: 400px;
+    border: 2px solid yellowgreen;
+    display: none;
+    align-items: center;
+}
+
+.fContent{
+    width : 80%;
+    height:300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    
+}
+
+/* Responsiveness */
+@media screen and (max-width:750px){
+    .navigation{
+        width: 100%;
+    }
+    .displayContent{
+        width: 100%;
+    }
+    .fContent{
+        width : 100%;
+        
+    }
+
+}

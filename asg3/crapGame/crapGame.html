@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crap Game</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./crapGame.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <h2 class="gameTitle">A Game of Chances</h2>
+        <a class="backButton" href="../index.html">Back</a>
+    </div>
+
+    <!-- Main app -->
+    <div id="gameContent">
+        <div id="gameForm">
+            <form >
+                <div class="dies">
+                    <div class="die1">
+                        <h3>Die 1 is <input name="die1" size="2"  type="text"></h3>
+                        <img src="" alt="">
+                    </div>
+                    <div class="die2">
+                        <h3>Die 2 is <input name="die1" size="2"  type="text"></h3>
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="gameButtons">
+                        <button type="button" onclick="rollDice()">Roll dice</button>
+                        <input name="results" size="2"  type="text">
+                        <button type="button" onclick="resetGame()">Reset</button>
+                </div>
+                <div class="gameText">
+                    <p id="totalMoney"></p>
+                    <p id="diceResults"></p>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    
+    <!-- Javascript -->
+    <script type="text/javascript" src="./crapGame.js"></script>
+</body>
+</html>

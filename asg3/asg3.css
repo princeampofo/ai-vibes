@@ -1,0 +1,73 @@
+/* Main pages styles */
+.mainContentAsg3{
+
+    background-color: #5d4257;
+    background-image: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
+    
+}
+
+
+.asg3Content{
+    max-width: 1024px;
+    margin: 0 auto ;
+   
+}
+
+#contentLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:57vh;
+
+    background-color: #ffa69e;
+    background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+    backdrop-filter: blur(10px);
+}
+
+a{
+    text-decoration: none;
+}
+
+#asg3Links{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: 40vh;
+    
+}
+
+.glassLink{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8em;
+    height: 3em;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.glassLink:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+
+
+/* responsive styles */
+
+@media screen and (max-width:750px){
+    #asg3Links{
+        flex-direction: column;
+    }
+
+    #contentLinks{
+        height: 53vh;
+
+    }
+    
+}
