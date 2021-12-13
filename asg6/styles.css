@@ -1,5 +1,5 @@
 /* Main pages styles */
-.mainContentAsg3{
+.mainContentAsg6{
 
     background-color: #5d4257;
     background-image: linear-gradient(315deg, #5d4257 0%, #a5c7b7 74%);
@@ -7,20 +7,18 @@
 }
 
 
-.asg3Content{
+.asg6Content{
     max-width: 1024px;
     margin: 0 auto ;
    
 }
 
-#contentLinks{
+#contentLinks6{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height:57vh;
-
     background-color: #ffa69e;
     background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
     backdrop-filter: blur(10px);
@@ -30,17 +28,18 @@ a{
     text-decoration: none;
 }
 
-#asg3Links{
+.asg6Links{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    width: 40%;
+    width: 35%;
     height: 40vh;
     
 }
 
-.glassLink{
+.glassLink6{
     color: white;
     display: flex;
     justify-content: center;
@@ -53,7 +52,7 @@ a{
     backdrop-filter: blur(10px);
 }
 
-.glassLink:hover{
+.glassLink6:hover{
     background-color: rgba(255,255,255,0.2);
 }
 
@@ -62,11 +61,11 @@ a{
 /* responsive styles */
 
 @media screen and (max-width:750px){
-    #asg3Links{
+    #asg6Links{
         flex-direction: column;
     }
 
-    #contentLinks{
+    #contentLinks6{
         height: 53vh;
 
     }

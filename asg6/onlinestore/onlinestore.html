@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./onlinestore.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <h2 class="gameTitle">Black Market</h2>
+        <a class="backButton" href="../index.html">Back</a>
+    </div>
+
+    <!-- Main app -->
+    <div id="gameContent">
+        <div id="gameForm">
+            <h2 class="oHeader">Welcome to the Black Market !</h2>
+            <p class="oPara">  Please make your order below:</p>
+            <form  action="./onlinestore.php" method="post">
+                <div class="formSpace">
+                    <label for="uname">Name:</label><br>
+                    <input type="text" id="uname" name="uname" placeholder="eg.Richard Banks" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="eg.abc@gmail.com" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="products">Choose a product:</label>
+                    <select name="products" id="products">
+                        <option value="Milo">Shirts</option>
+                        <option value="Nido">Shoes</option>
+                        <option value="Cornflakes">Trousers</option>
+                    </select> 
+                </div >
+                <div class="formSpace">
+                    <label for="quantity">Choose a quantity:</label>
+                    <input type="number" id="num1" name="num1" value="1" min="1"><br>
+                </div>
+                <div class="formSpace">
+                    <input type="reset" value="Reset"> 
+                </div>
+                <div class="formSpace">
+                    <input type="submit" value="Submit">
+                </div>   
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>

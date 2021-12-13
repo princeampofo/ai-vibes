@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./add.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <h2 class="gameTitle">Calculator App</h2>
+        <a class="backButton" href="../index.html">Back</a>
+    </div>
+
+    <!-- Main app -->
+    <div id="gameContent">
+        <div id="gameForm">
+            <h2 class="cHeader">The Best Calculator!</h2>
+            <p class="cPara">  Please enter two numbers and choose an operator:</p>
+            <form  action="./add.php" method="post">
+                <div class="formSpace">
+                    <label for="fnum">Enter First Number:</label><br>
+                    <input type="text" id="fnum" name="fnum" placeholder="eg.2" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="snum">Enter Second Number:</label><br>
+                    <input type="text" id="snum" name="snum" placeholder="eg.6" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="products">Choose an operator:</label>
+                    <select name="products" id="products">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select> 
+                </div >
+                <div class="formSpace">
+                    <input type="reset" value="Reset"> 
+                </div>
+                <div class="formSpace">
+                    <input type="submit" value="Submit">
+                </div>   
+            </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>

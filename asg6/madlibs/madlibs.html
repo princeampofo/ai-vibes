@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlibs Game</title>
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./madlibs.css">
+</head>
+<body>
+    <!-- Header -->
+    <div id="header">
+        <h2 class="gameTitle">Madlibs</h2>
+        <a class="backButton" href="../index.html">Back</a>
+    </div>
+
+    <!-- Main app -->
+    <div id="gameContent">
+        <div id="gameForm">
+            <h2 >Welcome to Madlibs app!</h2>
+            <p class="mPara">Fill in the requested info below:</p>
+            <form  action="./madlibs.php" method="post">
+                <div class="formSpace">
+                    <label for="adj1">Enter an adjective:</label><br>
+                    <input type="text" id="adj1" name="adj1" placeholder="eg.green" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="adj2">Enter another adjective:</label><br>
+                    <input type="text" id="adj2" name="adj2" placeholder="eg.square" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="noun1">Enter a noun:</label><br>
+                    <input type="text" id="noun1" name="noun1" placeholder="eg.book" required><br>
+                </div >
+                <div class="formSpace">
+                    <label for="verb1">Enter a verb:</label><br>
+                    <input type="text" id="verb1" name="verb1" placeholder="eg.eat" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="noun2">Enter another noun:</label><br>
+                    <input type="text" id="noun2" name="noun2" placeholder="eg.laptop" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="noun2">Enter another noun:</label><br>
+                    <input type="text" id="noun2" name="noun2" placeholder="eg.laptop" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="num1">Enter a number:</label><br>
+                    <input type="text" id="num1" name="num1" placeholder="eg.2" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="verb2">Enter a second verb:</label><br>
+                    <input type="text" id="verb2" name="verb2" placeholder="eg.write" required><br>
+                </div>
+                <div class="formSpace">
+                    <label for="noun3">Enter a third noun:</label><br>
+                    <input type="text" id="noun3" name="noun3" placeholder="eg.spoon" required><br>
+                </div>
+                <input type="submit" value="Submit">  
+            </form>
+        </div>
+
+    </div>
+    
+    <!-- Javascript -->
+    <!-- <script type="text/javascript" src="./crapGame.js"></script> -->
+</body>
+</html>
