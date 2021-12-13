@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 5</title>
+    <title>Assignment 2</title>
 
-    <!-- Css -->
     <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="asg2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 
 </head>
@@ -16,7 +15,7 @@
 
     <!-- Header -->
     <div class="header">
-        <h2>Assignment 5</h2>
+        <h2>Assignment 2</h2>
     </div>
 
 
@@ -29,11 +28,11 @@
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../index.html">Assig 1</a></li>
-                <li><a href="../asg2/index.html">Assig 2</a></li>
-                <li><a href="../asg3/index.html">Assig 3</a></li>
-                <li><a href="../asg4/index.html">Assig 4</a></li>
-                <li><a href="./index.html">Assig 5</a></li>
-                <li><a href="../asg6/index.html">Assig 6</a></li>
+                <li><a href="./index.html">Assig 2</a></li>
+                <li><a href="../proj3/index.html">Assig 3</a></li>
+                <li><a href="../proj4/index.html">Assig 4</a></li>
+                <li><a href="../proj5/index.html">Assig 5</a></li>
+                <li><a href="../proj6/index.html">Assig 6</a></li>
                 <li><a href="../contact.html">Contact</a></li>
             </ul>
         </div>
@@ -45,56 +44,51 @@
     </nav>
 
     <!-- Main content -->
-    <div class="mainContentAsg5">
-        <div id="asg5Content">
-            <section id="styleApplication">
-                <h2 class="sHeader">Styles Application</h2>
-                <h1 id="special">This is the 5th Assignment</h1>
-                <div class="highlight"></div>
-                <p class="p1"> Wishing you a merry christmas </p>
-                <p class="p1"> Assignment Number 5</p>
-                <p class="p1"> Web Development </p>
-                <button id="sButton5">Change Styles</button>
-                
-            </section>
-            <hr>
-            <section id="imageApplication">
-                <h2 class="sHeader">Image Application</h2>
-                <img id="img5" src="tech.jpg">
-                <div class="cButtons">
-                    <div class="showButtons">
-                        <button id="hButton">Hide</button>
-                        <button id="showButton">Show</button>
-                    </div>
-                    <div class="fadeButtons">
-                        <button id="fOutButton">Fade Out</button>
-                        <button id="fInButton">Fade In</button>
-
-                    </div>
-
+    <div class="mainContentAsg2">
+        <div id="asg2Content">
+            <section id="changeStyles">
+                <h2 class="sTitle">Change Styles</h2>
+                <div class="shapes">
+                    <div id="firstShape"></div>
+                    <p id="sText">This is a square/rectangle shape. Click to see an oval/circle shape!</p>
+                    <button id="sButton1" onclick="change()">Change Styles</button>
                 </div>
             </section>
     
-            <hr>
-            <section id="animationApplication">
-                <h2 class="sHeader">Animation Application</h2>
-                <div id="animateObject"></div>
-                <button id="aButton">Animate</button>
-            </section>
-            <hr>
-            <section id="uNamePassword">
-                <h2 class="sHeader">Form Application</h2>
-                
-                <div class="unameDiv">Username: <input type="text" id="uname" name="uname"></div>
-                <div class="passwordDiv">Password: <input type="text" id="password" name="password"></div>
-                <div id="demo">
-
+            <section id="prizeSection">
+                <h2 class="sTitle">Win A Prize :</h2>
+                <div class="pSection">
+                    <img id="prizeImg" src="" alt="">
+                    <p class="prizeText"></p>
+                    <button id="sButton2" onclick="randPrize()">Click to win a Prize!</button>
                 </div>
             </section>
-            <hr>
-            <section id="jQueryWeb">
-                <h2 class="sHeader">JQuery Web</h2>
-                <a href="./jQWeb/index.html" id="jButton">Visit JQuery Web</a>
+    
+    
+            <section id="swapText">
+                <h2 class="sTitle">Swap Text</h2>
+                <div class="pDiv">
+                    <p id="p1" onclick="swapT()">
+                        They had made it to Las Vegas, wide-eyed and with so much hope and energy. They had planned the trip for more than a year and both were so excited they could barely control themselves. They still hadn't realized that Las Vegas promised a place where dreams come true, it was actually the place where dreams came to die.
+                    </p>
+                    <hr>
+                    <p id="p2" onclick="swapT()">
+                        The amber droplet hung from the branch, reaching fullness and ready to drop. It waited. While many of the other droplets were satisfied to form as big as they could and release, this droplet had other plans. It wanted to be part of history. It wanted to be remembered long after all the other droplets had dissolved into history. So it waited for the perfect specimen to fly by to trap and capture that it hoped would eventually be discovered hundreds of years in the future.
+                    </p>
+                </div>
+            </section>
+    
+            <section id="swapImg">
+                <h2 class="sTitle">Swap Images</h2>
+                <div class="imgDiv">
+                    <img id="swapImg1" onclick="swapImg()" src="img/samsung.jpg" alt="">
+                    <img id="swapImg2" onclick ="swapImg()"  src="img/iphone6.jpg" alt="">
+                </div>
+            </section>
+
+            <section id="fortuneCookie">
+                <h2 class="sTitle">Fortune Cookie</h2>
+                <a class="fortuneLink" href="fortuneC.html">Click to get your Fortune Cookie</a>
             </section>
 
             <!-- About Section -->
@@ -136,8 +130,7 @@
 
     
     <!-- Javascript -->
-    <script type="text/javascript" src= "https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="../js/script.js"></script>
-    <script type="text/javascript" src="./myscript.js"></script>
+    <script type="text/javascript" src="asg2.js"></script>
 </body>
 </html>
